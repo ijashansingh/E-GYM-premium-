@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Record_image_uploader_sql">
+
+    <TextView
+        android:id="@+id/sqltextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your name"
+        android:textSize="24dp"/>
+    <EditText
+        android:id="@+id/sqledittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:layout_below="@id/sqltextview"/>
+    <Button
+        android:id="@+id/sqlbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:layout_below="@+id/sqledittext"
+        android:text="Save"/>
+    <TextView
+        android:id="@+id/sqltextview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sqlbutton"
+        android:textSize="24dp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"/>
+    <ImageView
+        android:id="@+id/sqlimage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/sqltextview1"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/sqlupload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/sqlimage"
+        android:layout_centerInParent="true"/>
+
+
+    <Button
+        android:id="@+id/sqlnext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="next"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/sqlupload"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

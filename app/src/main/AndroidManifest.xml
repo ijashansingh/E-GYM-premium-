@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gymapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GYMAPPLICATION">
+        <activity
+            android:name=".Splash_activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Form_only_onetime"
+            android:exported="false" />
+        <activity android:name=".Detailer_class_exercises" />
+        <activity
+            android:name=".End_play_fullscreen"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_end_play_fullscreen"
+            android:theme="@style/Theme.GYMAPPLICATION.Fullscreen" />
+        <activity android:name=".Graphs_weight" />
+        <activity android:name=".Record_image_shower_sql" />
+        <activity android:name=".Record_image_uploader_sql" />
+        <activity android:name=".playactivity" />
+        <activity android:name=".Data_Copier" />
+        <activity android:name=".PlayList_DataShower" />
+        <activity android:name=".Excercise_datashower" />
+        <activity android:name=".Exeercise_data" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"></activity>
+    </application>
+
+</manifest>

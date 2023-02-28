@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_calculators"
+    android:orientation="vertical"
+    android:background="@drawable/custom_button">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="157dp"
+        android:elevation="20dp">
+
+        <RadioButton
+
+            android:id="@+id/radioButton1"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:text="MALE"
+            android:textSize="40dp"/>
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="FEMALE"
+            android:textSize="40dp"/>
+    </RadioGroup>
+    <EditText
+        android:id="@+id/edittext1_calculator"
+        android:layout_width="222dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+
+        android:hint="AGE"
+        />
+
+    <EditText
+        android:id="@+id/edittext2_calculator"
+        android:layout_width="222dp"
+        android:layout_height="45dp"
+        android:hint="HEIGHT (cm)"
+        android:layout_gravity="center"
+
+        />
+
+    <EditText
+        android:id="@+id/edittext3_calculator"
+        android:layout_width="222dp"
+        android:layout_height="45dp"
+        android:hint="WEIGHT (KG)"
+        android:layout_gravity="center"
+
+        />
+
+    <EditText
+        android:id="@+id/edittext4_calculator"
+        android:layout_width="222dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+
+        android:hint="Neck (cm)" />
+
+
+    <EditText
+        android:id="@+id/edittext5_calculator"
+        android:layout_width="222dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+
+        android:hint="waist (cm)" />
+
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text=" "
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:textSize="52dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_gravity="bottom"
+        android:text="Button"
+        android:backgroundTint="@color/purple_200"
+
+        />
+
+
+
+</LinearLayout>

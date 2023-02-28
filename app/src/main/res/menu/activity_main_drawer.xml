@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+     <item
+        android:id="@+id/home"
+        android:title="BMI "
+
+
+        />
+    <item
+        android:id="@+id/discover"
+        android:title="BODY FAT"
+
+
+        />
+    <item
+        android:id="@+id/profile"
+        android:title="PROTEIN INTAKE"
+
+        />
+    <item
+        android:id="@+id/lossweight"
+        android:title="WEIGHT LOSS"
+
+        />
+    <item
+        android:id="@+id/increaseweight"
+        android:title="WEIGHT GAINER"
+
+        />
+
+
+
+</menu>
